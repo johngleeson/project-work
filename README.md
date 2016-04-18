@@ -28,6 +28,10 @@ It performs quite well:
 In it's current state on this repo, it DOES NOT function. This is due to the missing 4GB database.  
 If you want to see it functioning or would like the accompanying report, feel free to contact me.  
 
+#### Node.js Forensics Tool
+A forensics tool to read the MBR of an imaged disk.  
+Also displays information about deleted files contained within the image.
+
 #### PHP
 The web front-end to a movie rental project.  
 Not pretty but it works.

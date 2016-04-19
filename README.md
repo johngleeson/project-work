@@ -9,8 +9,11 @@ Small programs demonstating Linux system programming using semaphores / threads 
 
 #### Embedded C
 Arduino projects written in pure C.
+
 -Project1: Cycles through LEDS using an ADC and Timer
+
 -Project2: Controls a DC motor via commands send from the keyboard through an emulated serial interface.
+
 
 #### Java
 One file is my solution to the "Max Vector" problem.  

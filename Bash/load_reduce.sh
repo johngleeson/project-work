@@ -11,7 +11,6 @@ echo
 no_of_processes=$(ps -A | awk '{print$3}' | grep "^[0-9]" | wc -l)
 echo "There are $no_of_processes processes running on the system"
 
-#################BORROWED FROM YOU########################
 
 # Make list of all users to file: names
 ps aux | awk '$1 != "USER" {print $1}'>names
@@ -35,7 +34,6 @@ echo -e "$x \t $xuser"
 done < uniq_list
 
 echo 
-##################BORROWED FROM YOU#######################
 
 
 # find the %CPU, user, PID and name of busiest process. save to busiest_process
